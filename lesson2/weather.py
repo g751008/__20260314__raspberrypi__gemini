@@ -1,4 +1,5 @@
 import requests
+import time
 
 # 這裡我們偷偷用了一個專門為終端機設計的天氣網站 wttr.in
 # 既然我們知道你現在在新北市板橋區，我們就把目標鎖定在 Banqiao (板橋)！
@@ -8,6 +9,7 @@ url = "https://wttr.in/Banqiao?0"
 print("📡 正在連線至氣象衛星，偷偷抓取板橋區的即時天氣...")
 
 try:
+    time.sleep(10)
     # 派出我們的隱形瀏覽器去這個網址抓資料
     response = requests.get(url)
 
