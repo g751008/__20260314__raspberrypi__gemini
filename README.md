@@ -1,0 +1,2 @@
+# __20260314__raspberrypi__gemini
+致理科技大學課程
